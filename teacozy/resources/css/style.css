@@ -1,0 +1,166 @@
+body	{
+		margin: 0;
+		padding: 0;	
+		background-color: black;
+		font-family: Helvetica;
+		font-size: 22px;
+		opacity: 0.9;
+		text-align: center;
+		color: seashell;
+}
+
+a {
+	color: seashell;
+}
+
+
+
+/* Header Section */
+
+
+.header	{
+		position: fixed;
+		display: flex;
+		flex-flow: row;
+		border-bottom: 1px solid silver;
+		width: 100%;
+		justify-content: space-between;
+		height: 85px;
+		background-color: black;
+		z-index: 1;
+		
+}
+
+.logo	{
+		justify-content: flex-start;
+		height: 50px;
+		padding-left: 10px;
+	
+}
+
+.nav li{
+		display: inline-flex;
+		align-items: flex-end;
+		text-decoration: underline;
+		font-size: 20px;
+		padding-right: 20px;
+}
+
+
+/* Mission Section */
+.mission	{
+	position: relative;
+	width: 1200px;
+	display: flex;
+	flex-flow: column;
+	align-content:center;
+	margin-left: 60px;
+	margin-right: 20px;
+}
+
+.image-one	{
+	background-image: url("../images/mission-background.jpg");
+	display: flex;
+	flex direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	top: 90px;
+	height: 700px;
+	width: 1200px;
+}
+
+.headings {
+	display: inline-block;
+	width: 1200px;
+	height: 120px;
+	background-color: black;
+}
+
+
+/* Featured Tea Section */
+
+.tea {
+	width: 1200px;
+	height: 700px;
+	margin-left: 60px;
+	margin-right: 20px;
+	margin-top: 100px;
+	position: relative;
+
+}
+
+.featured-tea	{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items: center;
+	width: 1000px;
+	height: 470px;
+	margin-left: 100px;
+	margin-right: 20px;
+}
+
+
+
+/*  Location Section  */
+
+.location-back {
+	
+	background-image: url("../images/locations-background.jpg");
+	width: 1200px;
+	height: 500px;
+	margin-left: 60px;
+	margin-right: 20px;
+	margin-top: 50px;	
+}
+
+.locations {
+	display: flex;
+	align-text: center;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-around;
+}
+
+
+.address-one	{
+	display: inline-block;
+	opacity: 1;
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	line-height: 200%;
+
+}
+
+.address-two	{
+	display: inline-block;
+	opacity: 1;
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	line-height: 200%;
+}
+
+.address-three	{
+	display: inline-block;
+	opacity: 1;
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	line-height: 200%;
+	
+} 
+
+/*  Section 4 - Contact and Footer*/
+
+.contact {
+	height: 200px;
+}
+
+.footer	{
+	display: flex;
+	flex-direction: row:
+	justify-content: flex-start;
+}
